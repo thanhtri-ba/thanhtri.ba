@@ -1,0 +1,77 @@
+"use client";
+import { ZoomParallax } from "@/components/effects/zoom-parallax";
+import { LampDemo } from "@/components/effects/lamp";
+import { ProjectShowcase } from "@/components/sections/project-showcase";
+import ScrollExpand from "@/components/animations/ScrollExpand";
+import { ScrollReveal } from "@/components/animations/ScrollReveal";
+import { RulerCarousel, type CarouselItem } from "@/components/effects/ruler-carousel";
+
+const rulerItems: CarouselItem[] = [
+  { id: 1, title: "ENGINEER" },
+  { id: 2, title: "DESIGNER" },
+  { id: 3, title: "BUILDER" },
+  { id: 4, title: "INNOVATOR" },
+  { id: 5, title: "DEVELOPER" },
+  { id: 6, title: "CREATOR" },
+  { id: 7, title: "THINKER" },
+  { id: 8, title: "SHIPPER" },
+  { id: 9, title: "PROBLEM-SOLVER" },
+];
+
+export default function ZoomParallaxDemo() {
+  const images = [
+    {
+      src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1280&h=720&fit=crop&crop=entropy&auto=format&q=80",
+      alt: "Modern architecture building",
+    },
+    {
+      src: "/Design_zoomparallax/Echo-zoomparallax.png",
+      alt: "Echo",
+    },
+    {
+      src: "/Design_zoomparallax/Shopsmart-zoomparallax.png",
+      alt: "Shopsmart",
+    },
+    {
+      src: "/Design_zoomparallax/Pablo-zoomparallax.png",
+      alt: "Pablo",
+    },
+    {
+      src: "/Design_zoomparallax/Ben10-zoomparallax.png",
+      alt: "Ben-10",
+    },
+    {
+      src: "/Design_zoomparallax/Desinathon-zoomparallax.png",
+      alt: "Designathon",
+    },
+    {
+      src: "/Design_zoomparallax/Sonywalkman-zoomparallax.png",
+      alt: "Sony Walkman",
+    },
+  ];
+
+  return (
+    <section className="w-full">
+      <div className="relative flex h-[50vh] items-center justify-center">
+        <h1 className="text-center text-4xl font-bold">
+          Built to Outlast the Moment.
+        </h1>
+      </div>
+      <ZoomParallax
+        images={images}
+        portalIndex={0}
+        portalContent={<LampDemo />}
+      />
+      <ScrollExpand
+        stageBackground="radial-gradient(ellipse 100% 80% at 50% 50%, rgba(99,102,241,0.12) 0%, rgba(139,92,246,0.07) 28%, #08080f 58%, #050508 100%)"
+        background="#080808"
+      >
+        <ProjectShowcase />
+      </ScrollExpand>
+
+      <ScrollReveal className="w-full">
+        <RulerCarousel originalItems={rulerItems} />
+      </ScrollReveal>
+    </section>
+  );
+}

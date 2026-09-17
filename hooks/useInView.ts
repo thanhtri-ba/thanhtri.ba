@@ -5,6 +5,11 @@ import { useEffect, useRef, useState } from "react";
 export function useInView(options?: IntersectionObserverInit) {
   const ref = useRef<HTMLElement>(null);
   const [inView, setInView] = useState(false);
+  const optionsRef = useRef(options);
+
+  useEffect(() => {
+    optionsRef.current = options;
+  });
 
   useEffect(() => {
     if (!ref.current) return;
@@ -16,7 +21,7 @@ export function useInView(options?: IntersectionObserverInit) {
           observer.disconnect();
         }
       },
-      { threshold: 0.1, rootMargin: "0px 0px -10% 0px", ...options }
+      { threshold: 0.1, rootMargin: "0px 0px -10% 0px", ...optionsRef.current }
     );
 
     observer.observe(ref.current);

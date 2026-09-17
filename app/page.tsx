@@ -4,16 +4,16 @@ import { ScrollRevealCurtain } from "@/components/animations/ScrollRevealCurtain
 import ScrollWarpPortal from "@/components/animations/ScrollWarpPortal";
 import ScrollFoldTransition from "@/components/animations/ScrollFoldTransition";
 import VSCodePortfolio from "@/components/sections/vscode-portfolio";
-import { SplineSceneBasic } from "@/components/sections/spline-scene-basic";
-import StoryScrollDemo from "@/components/sections/story-scroll-demo";
-import HeroParallaxDemo from "@/components/sections/hero-parallax-demo";
+import { SplineSceneBasic } from "@/components/sections/spline-scene-section";
+import StoryScrollDemo from "@/components/sections/story-scroll-section";
+import HeroParallaxDemo from "@/components/sections/hero-parallax-section";
 import ScrollMorphSection from "@/components/sections/scroll-morph-section";
-import ScrollTiltedGridDemo from "@/components/sections/scroll-tilted-grid-demo";
-import CardCarouselDemo from "@/components/sections/card-carousel-demo";
+import ScrollTiltedGridDemo from "@/components/sections/scroll-tilted-grid-section";
+import CardCarouselDemo from "@/components/sections/card-carousel-section";
 import LightRays from "@/components/effects/LightRays";
-import ZoomParallaxDemo from "@/components/sections/zoom-parallax-demo";
+import ZoomParallaxDemo from "@/components/sections/zoom-parallax-section";
 import ProfileCard from "@/components/effects/ProfileCard";
-import FooterDemo from "@/components/sections/footer-demo";
+import FooterDemo from "@/components/sections/footer-section";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 
 export default function Home() {
@@ -53,6 +53,7 @@ export default function Home() {
               <br />
               I Am
             </span>
+            
           </div>
         }
         beneath={

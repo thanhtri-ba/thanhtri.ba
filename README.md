@@ -122,18 +122,18 @@ A global `MouseFollower` (dual-spring cursor) and a `PageReveal` curtain animate
 │     ├─ card-carousel.tsx              Design portfolio carousel
 │     ├─ LightRays.tsx + .css           ogl-based fragment shader
 │     ├─ ProfileCard.tsx + .css         Tilted holographic card
-│     ├─ spline-scene-basic.tsx         Spline scene + Spotlight sweep
+│     ├─ spline-scene-section.tsx       Spline scene + Spotlight sweep
 │     ├─ splite.tsx                     Lazy Suspense wrapper for Spline
 │     ├─ spotlight.tsx                  SVG radial spotlight
 │     ├─ lamp.tsx                       Conic-gradient lamp glow
 │     ├─ logo-loop.tsx + .css           Infinite logo marquee
 │     ├─ modem-animated-footer.tsx      Footer chrome
-│     ├─ footer-demo.tsx                Footer composition
+│     ├─ footer-section.tsx             Footer composition
 │     ├─ text-type.tsx + .css           Typewriter effect
 │     ├─ ruler-carousel.tsx             Ruler-style carousel
 │     ├─ container-scroll-animation.tsx Shared context for FrameToFullscreen
 │     ├─ safari-01.tsx                  Safari-window chrome
-│     ├─ ScrollProgressBar.tsx          Top scroll-progress bar
+│     ├─ scroll-progress-bar.tsx        Top scroll-progress bar
 │     └─ shadcn primitives              badge, button, card, dialog, input, sheet,
 │                                       tabs, button-shiny
 │

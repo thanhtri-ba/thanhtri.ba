@@ -286,15 +286,14 @@ const DEFAULT_SHORTCUTS: Shortcut[] = [
 ];
 
 const DEFAULT_RESULTS: SearchResult[] = [
-  { icon: <Code2 />, label: "GitHub", description: "View source repositories", link: "https://github.com/Rohithpranov07" },
-  { icon: <Briefcase />, label: "LinkedIn", description: "Professional profile", link: "https://www.linkedin.com/in/rohith-pranov/" },
-  { icon: <Terminal />, label: "LeetCode", description: "Problem-solving profile", link: "https://leetcode.com/u/Rohithpranov/" },
-  { icon: <Mail />, label: "Email", description: "Get in touch", link: "mailto:rohithpranovv@gmail.com" },
+  { icon: <Code2 />, label: "GitHub", description: "View source repositories", link: "https://github.com/thanhtri-ba" },
+  { icon: <Briefcase />, label: "LinkedIn", description: "Professional profile", link: "https://www.linkedin.com/in/ph%E1%BA%A1m-th%C3%A0nh-tr%C3%AD-73ba93362/" },
+  { icon: <Mail />, label: "Email", description: "Get in touch", link: "mailto:thanhtri.bsa@gmail.com" },
   { icon: <Globe />, label: "Projects", description: "Browse featured work", link: "#showcase" },
   { icon: <StickyNote />, label: "About", description: "Background & experience", link: "#about" },
   { icon: <ImageIcon />, label: "Gallery", description: "Visual portfolio", link: "#gallery" },
   { icon: <Settings />, label: "Flagship Projects", description: "Selected case studies", link: "#flagship" },
-  { icon: <Terminal />, label: "Resume", description: "Download CV", link: "https://drive.google.com/file/d/1_RlWFg78dGBueOH6he9EF3ptby07ZMML/view?usp=drive_link" },
+  { icon: <Terminal />, label: "Resume", description: "Download CV", link: "#" },
   { icon: <MessageSquare />, label: "Contact", description: "Send a message", link: "#contact" },
 ];
 

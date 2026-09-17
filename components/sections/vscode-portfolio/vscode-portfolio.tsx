@@ -411,8 +411,7 @@ const featuredProjects: Project[] = [
       "Recruiter-ready candidate reports",
     ],
     links: {
-      github: "https://github.com/Rohithpranov07/ProofStack.git",
-      linkedin: "https://www.linkedin.com/in/rohith-pranov/",
+      github: "#",
     },
   },
   {
@@ -435,8 +434,7 @@ const featuredProjects: Project[] = [
       "Revenue strategy export to PDF",
     ],
     links: {
-      github: "https://github.com/Rohithpranov07/KodaiRateIQ.git",
-      linkedin: "https://www.linkedin.com/in/rohith-pranov/",
+      github: "#",
       live: "https://kodai-rate-iq.vercel.app/",
     },
   },
@@ -460,9 +458,7 @@ const featuredProjects: Project[] = [
       "Investigator-grade case dashboard",
     ],
     links: {
-      github: "https://github.com/Rohithpranov07/cybershield-india.git",
-      linkedin:
-        "https://www.linkedin.com/posts/rohith-pranov_artificialintelligence-blockchain-cybersecurity-activity-7429836126657507329-Qp0L",
+      github: "#",
     },
   },
 ];
@@ -1114,7 +1110,7 @@ export const VSCodePortfolio: React.FC = () => {
               <section>
                 <SectionLabel>CURRENT STATUS</SectionLabel>
                 <a
-                  href="https://www.linkedin.com/in/rohith-pranov/"
+                  href="https://www.linkedin.com/in/ph%E1%BA%A1m-th%C3%A0nh-tr%C3%AD-73ba93362/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative block overflow-hidden rounded-[16px] border border-[#1a1a1a] transition-all duration-500 hover:border-[#a78bfa]/30 cursor-pointer"

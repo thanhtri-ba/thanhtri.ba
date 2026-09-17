@@ -14,13 +14,13 @@ export const products = [
   },
   {
     title: "ProofStack",
-    link: "https://github.com/Rohithpranov07/ProofStack.git",
+    link: "#",
     thumbnail: "/Proofstack-1.avif",
     objectPosition: "left top",
   },
   {
     title: "CyberShield India",
-    link: "https://github.com/Rohithpranov07/cybershield-india.git",
+    link: "#",
     thumbnail: "/cybershield-1.avif",
     objectPosition: "left top",
   },
@@ -33,7 +33,7 @@ export const products = [
   },
   {
     title: "Ridershield",
-    link: "https://github.com/Rohithpranov07/RIDERSHIELD_AI.git",
+    link: "#",
     thumbnail: "/Ridershield-1.avif",
     objectPosition: "center top",
   },
@@ -68,14 +68,14 @@ export const products = [
   },
   {
     title: "Sentinel",
-    link: "https://github.com/Rohithpranov07/Sentinel.git",
+    link: "#",
     thumbnail: "/sentinal-1.avif",
     objectPosition: "left top",
   },
 
   {
     title: "Sentry",
-    link: "https://github.com/Rohithpranov07/sentryx.git",
+    link: "#",
     thumbnail: "/Sentryx-1.avif",
   },
   {

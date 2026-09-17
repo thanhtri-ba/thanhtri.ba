@@ -161,9 +161,9 @@ export default function Home() {
       <ScrollReveal className="w-full">
         <section id="contact" className="min-h-screen w-full flex items-center justify-center bg-black px-6 py-24">
           <ProfileCard
-            name="Rohith Pranov"
-            title="Software Engineer"
-            handle="rohithpranov"
+            name="Thanh Tri"
+            title="Business Analyst"
+            handle="thanhtri-ba"
             status="Online"
             contactText="Contact Me"
             avatarUrl="/profilecard.avif"
@@ -175,7 +175,7 @@ export default function Home() {
             enableMobileTilt
             behindGlowEnabled
             innerGradient="linear-gradient(145deg,#60496e8c 0%,#71C4FF44 100%)"
-            contactHref="https://www.linkedin.com/in/rohith-pranov/"
+            contactHref="https://www.linkedin.com/in/ph%E1%BA%A1m-th%C3%A0nh-tr%C3%AD-73ba93362/"
           />
         </section>
       </ScrollReveal>

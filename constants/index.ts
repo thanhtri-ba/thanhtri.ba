@@ -1,9 +1,9 @@
 export const SITE = {
-  name: "Rohith Pranov",
-  role: "Creative Developer",
+  name: "Thanh Tri",
+  role: "Business Analyst & Full Stack Developer",
   tagline: "Crafting digital experiences that move people.",
-  email: "rohithpranovv@gmail.com",
-  location: "India",
+  email: "thanhtri.bsa@gmail.com",
+  location: "Vietnam",
 };
 
 export const NAV_LINKS = [

@@ -23,41 +23,41 @@ export default function FooterDemo() {
   const socialLinks = [
     {
       icon: <LinkedinIcon className="w-6 h-6" />,
-      href: "https://www.linkedin.com/in/rohith-pranov",
+      href: "https://www.linkedin.com/in/ph%E1%BA%A1m-th%C3%A0nh-tr%C3%AD-73ba93362/",
       label: "LinkedIn",
     },
     {
       icon: <FileText className="w-6 h-6" />,
-      href: "https://drive.google.com/file/d/1_RlWFg78dGBueOH6he9EF3ptby07ZMML/view?usp=sharing",
+      href: "#",
       label: "Resume",
     },
     {
       icon: <GithubIcon className="w-6 h-6" />,
-      href: "https://github.com/Rohithpranov07",
+      href: "https://github.com/thanhtri-ba",
       label: "Github",
     },
     {
       icon: <Mail className="w-6 h-6" />,
-      href: "mailto:rohithpranovv@gmail.com",
+      href: "mailto:thanhtri.bsa@gmail.com",
       label: "Mail",
     },
   ];
 
   const navLinks = [
-    { label: "LinkedIn", href: "https://linkedin.com" },
-    { label: "Resume", href: "/" },
-    { label: "Github", href: "https://github.com/Rohithpranov07" },
-    { label: "Mail", href: "mailto:rohithpranovv@gmail.com" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/ph%E1%BA%A1m-th%C3%A0nh-tr%C3%AD-73ba93362/" },
+    { label: "Resume", href: "#" },
+    { label: "Github", href: "https://github.com/thanhtri-ba" },
+    { label: "Mail", href: "mailto:thanhtri.bsa@gmail.com" },
   ];
 
   return (
     <Footer
-      brandName="Rohith Pranov"
-      brandDescription="Developer & Engineer crafting intelligent, production-grade systems with purpose."
+      brandName="Thanh Tri"
+      brandDescription="Business Analyst & Full Stack Developer crafting intelligent, production-grade systems with purpose."
       socialLinks={socialLinks}
       navLinks={navLinks}
-      creatorName="Rohith Pranov"
-      creatorUrl="https://github.com/Rohithpranov07"
+      creatorName="Thanh Tri"
+      creatorUrl="https://github.com/thanhtri-ba"
       brandIcon={
         <NotepadTextDashed className="w-8 sm:w-10 md:w-14 h-8 sm:h-10 md:h-14 text-background drop-shadow-lg" />
       }
